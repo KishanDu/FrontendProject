@@ -1,0 +1,372 @@
+.bodys {
+    background-image: url("./Asset/img\ \(1\).jpg");
+    width: 100%;
+    height: 600px;
+}
+
+.container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 100px;
+    width: 20%;
+}
+
+.nav {
+    height: 100px;
+    width: 60%;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content1 {
+    height: 200px;
+    width: 30%;
+    text-align: justify;
+    margin-top: 200px;
+    letter-spacing: 2px;
+}
+
+.head {
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#h2 {
+    color: black;
+    text-align: center;
+}
+
+.Card-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 33%;
+    height: 500px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1 {
+    background-image: url("./Asset/img\ \(3\).jpg");
+}
+
+.box2 {
+    background-image: url("./Asset/img\ \(4\).jpg");
+}
+
+.box3 {
+    background-image: url("./Asset/img\ \(5\).jpg");
+}
+
+#images {
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.b1 {
+    height: 80%;
+}
+
+.b2 {
+    height: 20%;
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 0px 0px black;
+}
+
+.name,
+.price {
+    height: 20px;
+    width: 50%;
+    padding: 10px;
+}
+
+#btn {
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.subscribe {
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+}
+
+.subscribe1 {
+    height: 50%;
+    width: 95%;
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.headi {
+    height: 60%;
+    width: 100%;
+    background-color: blue;
+    border-radius: 30px;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.email {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50PX;
+}
+
+#btns {
+    height: 100%;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#inp {
+    width: 30%;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: blue;
+}
+
+i {
+    height: 20px;
+    width: 20px;
+}
+
+.futer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+
+.f1 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.f2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo1 {
+    height: 50%;
+    width: 50%;
+}
+
+.ican {
+    height: 50%;
+    width: 50%;
+}
+
+.location,
+.content,
+.leges {
+    height: 100%;
+    width: 20%;
+}
+
+.para {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+/* About css peges */
+.container10 {
+    height: 750px;
+    width: 100%;
+    background-color: rgb(214, 108, 108);
+}
+
+.c {
+    height: 500px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 5px 5px 5px 0px white;
+}
+
+/* contacct css peges */
+
+.body10 {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.forms {
+    height: 500px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 5px 5px 5px 0px white;
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 15px 15px rgba(178, 36, 36, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 2px solid green;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#btns5 {
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+#btns5:hover {
+    background-color: #45a049;
+}
+
+/* Service page CSS */
+.container11 {
+    background-image: url("./Asset/img\ \(6\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards-caontanier {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;/
+}
+
+.cards1,
+.cards2,
+.cards3,
+.cards4 {
+    height: 400px;
+    width: 350px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+#h11 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    width: 90%;
+}
+
+.p1 {
+    height: 310px;
+    border-radius: 15px;
+    text-align: justify;
+    background-image: url("./Asset/img\ \(2\).jpg");
+    opacity: 0.8;
+}
+
+.paragraph {
+    padding: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.s-button {
+    text-align: center;
+}
